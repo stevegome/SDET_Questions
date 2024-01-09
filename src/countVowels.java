@@ -1,4 +1,5 @@
 // Replace ___ with your code below
+
 import java.util.Scanner;
 
 class countVowels {
@@ -12,11 +13,11 @@ class countVowels {
         int counter = 0;
 
         // loop through convertedString from the start of the string
-        for(int i=0 ; i< convertedString.length();i++) {
+        for (int i = 0; i < convertedString.length(); i++) {
 
             // use charAt() and check if letter at each index of convertedString
             // is either 'a', 'e', 'i', 'o', 'u'
-            if(convertedString.charAt(i) == 'a' || convertedString.charAt(i) == 'e' || convertedString.charAt(i) == 'i' || convertedString.charAt(i) == 'o' || convertedString.charAt(i) == 'u') {
+            if (convertedString.charAt(i) == 'a' || convertedString.charAt(i) == 'e' || convertedString.charAt(i) == 'i' || convertedString.charAt(i) == 'o' || convertedString.charAt(i) == 'u') {
 
                 // increase the counter variable by 1
                 counter++;

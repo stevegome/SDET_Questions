@@ -26,6 +26,7 @@ class CountStringLength {
 
         // get input String
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter the text of your choice ---->");
         String text = input.nextLine();
 
         // call the lengthOfString method and print the result
